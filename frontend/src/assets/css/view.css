@@ -1,0 +1,168 @@
+.paginationHome > ul > li > a {
+    color: #8694a4;
+}
+
+
+.paginationHome > ul > li > a:hover {
+    color: white;
+    border-color: white !important;
+}
+
+.paginationHome > ul > li > a{
+    border-color: #8694a4 !important;
+    margin-right: 10px;
+    background-color: #1f2d3b !important;
+}
+
+.paginationHome > ul > li > span{
+    border-color: #1f2d3b !important;
+    margin-right: 10px;
+    background-color: #1f2d3b !important;
+}
+
+.paginationHome > ul > li.active > a{
+    background-color: #8694a4 !important;
+}
+
+
+.paginationRead > ul > li > a {
+    color: #8694a4;
+}
+
+
+.paginationRead > ul > li > a:hover {
+    color: white;
+    border-color: white !important;
+}
+
+.paginationRead > ul > li > a{
+    border-color: #8694a4 !important;
+    margin-right: 10px;
+    background-color: #2B3E50 !important;
+}
+
+.paginationRead > ul > li > span{
+    border-color: #2B3E50 !important;
+    margin-right: 10px;
+    background-color: #2B3E50 !important;
+}
+
+.paginationRead > ul > li.active > a{
+    background-color: #8694a4 !important;
+
+}
+
+td.viewcolumn {
+    padding-right: 2em !important;
+}
+
+td{
+    padding-bottom: 0.5em;
+}
+
+
+@media (min-width: 1088px) {
+    .navbar-search-box {
+        width: 320px;
+        display: block;
+    }
+}
+
+/* We never want card titles to overflow. */
+.card-header-title {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Index page card header - reduce font size to allow more text. */
+@media (min-width: 512px) {
+    .card-header-title {font-size: 14px;}
+}
+@media (max-width: 383px) {
+    .card-header-title {font-size: 10px;}
+}
+@media (min-width: 384px) and (max-width: 511px) {
+    .card-header-title {font-size: 12px;}
+}
+@media (max-width: 768px) {
+    #depictThumb { display: none; }
+    table.view-page-details {
+        height: auto;
+    }
+
+    #nextLink {
+        /* Bulma has 20px margins, so we shift it to the left 20px and make it full-width. */
+        display: block;
+        position: relative;
+        right: 20px;
+        width: calc(100% + 40px);
+    }
+}
+
+
+/* The font we use is not perfectly vertically aligned, so to prevent icons from looking bad, we nudge them down 1px. */
+span.icon {
+    position: relative;
+    top: 1px;
+}
+
+table.view-page-details {
+    line-height: 2em;
+    table-layout: fixed;
+}
+
+table.view-page-details td:first-child {
+    width: 112px;
+}
+
+table.view-page-details span.tag a {
+    color:inherit;
+}
+
+.pagination-top {
+    padding-bottom: 1em;
+}
+
+.pagination-bottom {
+    padding-top: 1em;
+}
+
+.centered {
+    text-align: center;
+}
+
+.search-title {
+    padding-bottom: 1em;
+}
+
+@media (max-width: 768px) {
+    .depict-button-set a.button {
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .depict-button-set {
+        position: absolute;
+        bottom: 20px;
+    }
+}
+
+footer.site-footer {
+    padding-bottom: 2em;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pageChangeSnap {
+    display: none;
+}
+
+.list-star-icon {
+    height: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
